@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0%;
+}
+body{
+    background-image: url("../images/jason-leung-D4YrzSwyIEc-unsplash.jpg");
+    background-size: cover;
+    background-position: absolute;
+}
+.header{
+    background-color: aqua;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3%;
+    
+
+}
+.header >.nav{
+    text-align: center;
+    justify-content: space-between;
+    
+    
+}
+.nav >nav >ul >li{
+    display: inline-block;
+    justify-content: space-between;
+    padding-left:3%;
+    
+
+}
+.main{
+    padding-top: 2%;
+}
+.courses {
+    float:left;
+    background-color:aqua;
+    padding-bottom:10%;   
+    border-radius: 10px;
+    padding-top: 5%;
+    padding-left: 3%;
+    
+   
+    
+}
+.courses >aside >ul >li{
+   list-style:none;
+   padding: 3%;
+   justify-content:space-evenly;
+   
+}
+
+.main >.motivation{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 30px;
+    color: white;
+    justify-content: space-between;
+}
