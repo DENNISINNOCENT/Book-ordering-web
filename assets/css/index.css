@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+background-color: white;
+align-items: center;
+justify-content: center;
+min-height: 90vh;
+display: flex;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+background-image: url('../images/susan-q-yin-2JIvboGLeho-unsplash.jpg');
+background-size: cover;
+
+}
+.container{
+    background-color: aqua;
+   
+    padding: 10%;
+    border-radius:5%;
+
+
+}
+.form-control{
+    padding: 1%;
+    
+}
+.form-control >label{
+    padding-right: 15%;
+    display:inline-block;
+    justify-content: center;
+}
+.form-control >input{
+    padding: 2%;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.submitbutton{
+    padding-top: 10%;
+}
+.submitbutton >button{
+  font-size: 25px;
+  width:90%;
+  padding: 3%;
+  border-radius: 5px; 
+  border: 2px solid black;
+    
+}
