@@ -1,49 +1,33 @@
 *{
     box-sizing: border-box;
+
 }
 body{
-background-color: white;
-align-items: center;
-justify-content: center;
-min-height: 90vh;
-display: flex;
-font-size: 20px;
-font-family: 'Times New Roman', Times, serif;
-background-image: url('../images/susan-q-yin-2JIvboGLeho-unsplash.jpg');
-background-size: cover;
-
-}
-.container{
-    background-color: aqua;
-   
-    padding: 10%;
-    border-radius:5%;
-
-
-}
-.form-control{
-    padding: 1%;
-    
-}
-.form-control >label{
-    padding-right: 15%;
-    display:inline-block;
+    align-items: center;
+    display: flex;
+    height: 90vh;
     justify-content: center;
+    background-image: url("../images/susan-q-yin-2JIvboGLeho-unsplash.jpg");
+    background-size: cover;
+
 }
-.form-control >input{
-    padding: 2%;
+.login-control{
+    background-color: aqua;
+    padding: 10%;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius:10px ;
     font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login-control >label{
+    padding: 5%;
+
+}
+.login-control >input{
+    padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
-}
-.submitbutton{
-    padding-top: 10%;
-}
-.submitbutton >button{
-  font-size: 25px;
-  width:90%;
-  padding: 3%;
-  border-radius: 5px; 
-  border: 2px solid black;
-    
+    width: 100%;
+    font-size: 20px;
+
 }
